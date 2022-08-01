@@ -3,6 +3,8 @@ Lazy CSS
 
 Drop-in CSS library (file) for zero effort webpage design.
 
+See demo [here](https://edgarsjoja.github.io/lazy-css/).
+
 ### How to use
 
 Take `lazy.css` file and add it to your project.
