@@ -1,5 +1,6 @@
 input,
-textarea {
+textarea,
+select {
     padding: .75em .75em;
     border-radius: .5em;
     border: 2px solid var(--lazy-color-primary);
@@ -7,6 +8,7 @@ textarea {
 }
 
 input:focus,
-textarea:focus {
+textarea:focus,
+select:focus {
     outline: 3px solid var(--lazy-color-secondary);
 }

@@ -1,0 +1,28 @@
+table {
+    border-collapse: collapse;
+}
+
+table tbody tr:hover th,
+table tbody tr:hover td {
+    background: var(--lazy-color-secondary);
+}
+
+table tbody tr th:first-of-type {
+    border-top-left-radius: .5em;
+    border-bottom-left-radius: .5em;
+}
+
+table tbody tr td:last-of-type {
+    border-top-right-radius: .5em;
+    border-bottom-right-radius: .5em;
+}
+
+table th {
+    color: var(--lazy-color-primary);
+}
+
+table td,
+table th {
+    text-align: right;
+    padding: .75em;
+}

@@ -3,9 +3,10 @@
     <title>Lazy CSS Demo</title>
 <!--    <link rel="stylesheet" href="lazy.css"/>-->
     <link rel="stylesheet" href="css/lazy-colors.css"/>
-    <link rel="stylesheet" href="css/lazy-font.css"/>
     <link rel="stylesheet" href="css/lazy-input.css"/>
     <link rel="stylesheet" href="css/lazy-button.css"/>
+    <link rel="stylesheet" href="css/lazy-list.css"/>
+    <link rel="stylesheet" href="css/lazy-table.css"/>
 </head>
 <body>
 <div class="section-list">
@@ -30,6 +31,21 @@
                 <textarea style="width: 50%;height: 10em;"></textarea>
             </label>
         </p>
+        <p>
+            <label>
+                <select>
+                    <option>Option 1</option>
+                    <option>Option 2</option>
+                    <option>Option 3</option>
+                </select>
+            </label>
+        </p>
+        <p>
+            <label>
+                <input type="checkbox" />
+                Label
+            </label>
+        </p>
     </div>
     <div class="section">
         <p>
@@ -41,6 +57,56 @@
         <p>
             <button disabled>Disabled</button>
         </p>
+    </div>
+    <div class="section">
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+    </div>
+    <div class="section">
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Column 1</th>
+                    <th>Column 2</th>
+                    <th>Column 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Row 1</th>
+                    <td>Cell 1</td>
+                    <td>Cell 2</td>
+                    <td>Cell 3</td>
+                </tr>
+                <tr>
+                    <th>Row 2</th>
+                    <td>Cell 1</td>
+                    <td>Cell 2</td>
+                    <td>Cell 3</td>
+                </tr>
+                <tr>
+                    <th>Row 3</th>
+                    <td>Cell 1</td>
+                    <td>Cell 2</td>
+                    <td>Cell 3</td>
+                </tr>
+                <tr>
+                    <th>Row 4</th>
+                    <td>Cell 1</td>
+                    <td>Cell 2</td>
+                    <td>Cell 3</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </div>
 </body>

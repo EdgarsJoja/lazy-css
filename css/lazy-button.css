@@ -2,9 +2,10 @@ button {
     padding: .75em 1.5em;
     border-radius: .75em;
     border: none;
-    background: var(--lazy-color-secondary);
+    background: var(--lazy-color-primary);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .3);
     cursor: pointer;
+    color: rgba(var(--lazy-color-primary), .15);
 }
 
 button:hover:not(:disabled) {
