@@ -11,6 +11,7 @@
 <body>
 <div class="section-list">
     <div class="section">
+        <h3 class="section-header">Controls</h3>
         <p>
             <label>
                 <input type="text" value="Input Value" />
@@ -24,6 +25,11 @@
         <p>
             <label>
                 <input type="number" />
+            </label>
+        </p>
+        <p>
+            <label>
+                <input type="text" value="Disabled input" disabled />
             </label>
         </p>
         <p>
@@ -42,14 +48,60 @@
         </p>
         <p>
             <label>
+                <select disabled>
+                    <option>Option 1</option>
+                    <option>Option 2</option>
+                    <option>Option 3</option>
+                </select>
+            </label>
+        </p>
+        <p>
+            <label>
                 <input type="checkbox" />
-                Label
+                Checkbox
+            </label>
+        </p>
+        <p>
+            <label>
+                <input type="checkbox" disabled/>
+                Disabled checkbox
+            </label>
+        </p>
+        <p>
+            <label>
+                <input type="checkbox" checked disabled/>
+                Disabled selected checkbox
+            </label>
+        </p>
+        <p>
+            <label>
+                <input name="example" type="radio" />
+                Radio 1
+            </label>
+        </p>
+        <p>
+            <label>
+                <input name="example" type="radio" />
+                Radio 2
+            </label>
+        </p>
+        <p>
+            <label>
+                <input name="example2" type="radio" disabled />
+                Radio disabled
+            </label>
+        </p>
+        <p>
+            <label>
+                <input name="example2" type="radio" checked disabled />
+                Radio selected disabled
             </label>
         </p>
     </div>
     <div class="section">
+        <h3 class="section-header">Buttons</h3>
         <p>
-            <button>Button</button>
+            <button><span>Button</span></button>
         </p>
         <p>
             <button>Another Button</button>
@@ -59,6 +111,7 @@
         </p>
     </div>
     <div class="section">
+        <h3 class="section-header">Lists</h3>
         <ul>
             <li>Item 1</li>
             <li>Item 2</li>
@@ -71,6 +124,7 @@
         </ol>
     </div>
     <div class="section">
+        <h3 class="section-header">Table</h3>
         <table>
             <thead>
                 <tr>
@@ -130,5 +184,9 @@
 
     .section:hover {
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
+    .section-header {
+        text-align: center;
     }
 </style>
